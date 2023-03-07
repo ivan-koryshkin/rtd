@@ -1,6 +1,6 @@
 eventToMessage = (eventModel) => {
     if(eventModel === null) {
-        return "Сегодня пить не за что :("
+        return "Сегодня праздников нет :("
     }
     const date = new Date(Date.now());
     const dayStr = eventModel.day < 10 ? `0${eventModel.day}`: `${eventModel.day}`;

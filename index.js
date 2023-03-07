@@ -17,15 +17,15 @@ const fsutils = require('./fsutils')
  * piceaster - On Easter
  * 
  * drink - Праздник сегодня
- * picbd - На ДР
  * picbro - для Друга
  * picdt - для Дочки
- * picgdpa - для Дудушки
- * picnana - для Бабушки
  * picwintermood - Зимнее настроение
  * pickurban - Курбан байрам
  * picramadan - Месяц рамадан
  * piceaster - На Пасху
+ * picbd - На ДР
+ * picgdpa - для Дудушки
+ * picnana - для Бабушки
  * picwomansday - 8 марта
  */
 
