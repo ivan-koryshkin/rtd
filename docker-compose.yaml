@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  # postgres:
+  #   restart: always
+  #   image: postgres:12
+  #   container_name: postgres
+  #   env_file:
+  #     - .env
+  #   volumes:
+  #     - ./data:/var/lib/postgresql/data
+  #   expose:
+  #     - 5432
+  #   ports:
+  #     - "5432:5432"
+  bot:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: rtd
+    network_mode: 'host'
