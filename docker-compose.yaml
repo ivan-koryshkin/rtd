@@ -12,7 +12,7 @@ services:
       - 5432
     ports:
       - "5432:5432"
-  bot:
+  rtd_bot:
     restart: always
     build:
       context: .
